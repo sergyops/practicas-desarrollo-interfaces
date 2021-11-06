@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.Polygon?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.sergyops.openjfxshapes.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Group>
+            <children>
+                <Line fx:id="line1" endX="100.0" startX="-100.0" />
+                <Line fx:id="line2" endX="100.0" startX="-100.0" />
+                <Line fx:id="line3" endX="100.0" startX="-100.0" />
+            </children>
+        </Group>
+        <Group>
+            <children>
+                <Circle fill="DODGERBLUE" layoutX="360.0" layoutY="197.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+                <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="-55.0" layoutY="107.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+                <Polygon fx:id="pentagon" fill="DODGERBLUE" layoutX="203.0" layoutY="-22.0" stroke="BLACK" strokeType="INSIDE"/>
+            </children>
+        </Group>
+    </children>
+</VBox>
